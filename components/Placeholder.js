@@ -6,7 +6,7 @@ import happy from "../public/images/stereo-typefaces_happyface.png";
 import sad from "../public/images/stereo-typefaces_sadface.png";
 
 const Placeholder = () => {
-  const [change, setChange] = useState(false);
+  const [change, setChange] = useState(true);
   return (
     <div className={styles.wrapper}>
       <a href={"mailto:info@stereotypefaces.com"}>
