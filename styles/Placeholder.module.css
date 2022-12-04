@@ -1,0 +1,27 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: #c8c5ff;
+}
+
+.controls {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.hoverLeft,
+.hoverRight {
+  width: 50%;
+  height: 100%;
+}
+
+.quarter {
+    height: 50%;
+    width: 100%;
+}
+
+.imageWrapper {
+  pointer-events: none;
+}
