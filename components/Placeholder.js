@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Image from "next/image"
 import styles from "../styles/Placeholder.module.css";
 
 import happy from "../public/images/stereo-typefaces_happyface.png";
@@ -36,14 +36,14 @@ const Placeholder = () => {
 
       <div className={styles.imageWrapper}>
         {change ? (
-          <img
+          <Image
             src={happy}
             layout="fill"
             objectFit="contain"
             alt={"Stereo Typefaces"}
           />
         ) : (
-          <img
+          <Image
             src={sad}
             layout="fill"
             objectFit="contain"
